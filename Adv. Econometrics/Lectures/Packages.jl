@@ -5,3 +5,6 @@ Pkg.add(url="https://github.com/gragusa/Regress.jl")        # thanks Professor G
 Pkg.add("DataFrames")
 Pkg.add("CSV")
 Pkg.add("ShiftedArrays")
+
+Pkg.status()                                                # to check versions
+

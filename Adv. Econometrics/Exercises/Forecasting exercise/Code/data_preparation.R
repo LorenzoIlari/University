@@ -28,5 +28,3 @@ write.csv(data.frame(date = dates, log_return = returns), "sp500_monthly_returns
 # first look at data
 plot(dates, returns, type = 'l', col = 'blue', xlab = 'Time', ylab = 'log returns', main = 'S&P500 Log-Monthly Returns')
 abline(h = 0, lty = 2, col = 'red')
-
-
