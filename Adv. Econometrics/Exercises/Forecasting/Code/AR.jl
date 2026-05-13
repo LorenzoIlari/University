@@ -292,7 +292,7 @@ DM = d_bar / sqrt(var_d / P)
 abs_DM = abs(DM)
 critical = 1.96
 reject_H0 = abs_DM > critical
-println("Diebold–Mariano statistic (p=9, h=1): ", DM)
+println("Diebold-Mariano statistic (p=9, h=1): ", DM)
 println("|DM| = ", round(abs_DM,digits=3))
 println("test at 5%: ", round(abs_DM,digits=3), " > ", critical, " => reject H0? ", reject_H0)
 
